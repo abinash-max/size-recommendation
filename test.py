@@ -8,7 +8,7 @@ import PIL.Image
 # CONFIGURATION
 # ------------------------------------------------------------------
 # Replace with your actual Google AI Studio API Key
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyBeUFgh4pLxLY6xxuqGNi3Fr-w1_NEBpTI")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "YOUR-API-KEY")
 
 # STRICTLY using the model requested
 MODEL_NAME = "gemini-3-flash-preview"
