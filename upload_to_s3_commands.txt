@@ -1,0 +1,14 @@
+# Commands to upload model to S3 (ap-south-1 region)
+
+# 1. Create S3 bucket (if doesn't exist)
+aws s3 mb s3://size-recommendation-models --region ap-south-1
+
+# 2. Upload model
+aws s3 cp "C:/Users/user/Downloads/best_model-size-recommendation" s3://size-recommendation-models/models/best_model.pth
+
+# 3. Verify upload
+aws s3 ls s3://size-recommendation-models/models/
+
+# 4. After upload, set Lambda environment variable:
+# CHECKPOINT_PATH=s3://size-recommendation-models/models/best_model.pth
+
