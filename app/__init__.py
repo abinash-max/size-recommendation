@@ -1,2 +1,0 @@
-# Size Recommendation API
-
