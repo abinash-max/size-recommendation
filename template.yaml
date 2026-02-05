@@ -7,7 +7,6 @@ Parameters:
     Type: String
     Description: Google AI API Key
     NoEcho: true
-    # Default: 'AIzaSyBeUFgh4pLxLY6xxuqGNi3Fr-w1_NEBpTI'
   CheckpointPath:
     Type: String
     Description: Path to classifier checkpoint (S3 or local)
